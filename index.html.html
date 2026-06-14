@@ -659,6 +659,12 @@
       line-height: 1.1;
       color: var(--ivory);
       margin-bottom: 24px;
+      cursor: none;
+      transition: transform 0.2s ease-out, color 0.2s ease-out;
+    }
+
+    .contact-headline:hover {
+      color: var(--amber);
     }
 
     .contact-sub {
@@ -667,6 +673,11 @@
       max-width: 480px;
       margin: 0 auto 48px;
       line-height: 1.8;
+      transition: transform 0.2s ease-out, color 0.2s ease-out;
+    }
+
+    #contact:hover .contact-sub {
+      color: var(--ivory);
     }
 
     .contact-links {
